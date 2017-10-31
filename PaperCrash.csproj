@@ -78,13 +78,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\Scripts\AvioncitoMovimiento.cs" />
     <Compile Include="Assets\Scripts\Bala.cs" />
     <Compile Include="Assets\Scripts\CambioRoom.cs" />
+    <Compile Include="Assets\Scripts\CantidadDisparo.cs" />
     <Compile Include="Assets\Scripts\Clonacion.cs" />
+    <Compile Include="Assets\Scripts\Escudo.cs" />
     <Compile Include="Assets\Scripts\Fondos.cs" />
+    <Compile Include="Assets\Scripts\FuegoRapido.cs" />
+    <Compile Include="Assets\Scripts\HighScore.cs" />
     <Compile Include="Assets\Scripts\ManagerUI.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\Powerups.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\Skins.cs" />
+    <Compile Include="Assets\Scripts\SpawnerPowerUp.cs" />
     <Compile Include="Assets\Scripts\SpawnMovimientoMeteoro.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
